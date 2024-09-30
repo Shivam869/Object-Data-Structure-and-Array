@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="UTF-8" />
+
+<title>Greetings Master</title>
+
+</head>
+
+<body>
+     <h2>Object Data Structure and Array</h2>
+      <script>
+       var student= {
+        name:'Riya',
+        Age:'12',
+        Grade:'7',
+        Hobby:'Drawing',
+        Fav_sport:'football',
+       };
+       var color=["white","black","red","green","blue","yellow"]
+       document.write("Name of the student is " + student.name ,"<br>", "The favourite sport is "+student.Fav_sport )
+       document.write("Before poping the colors " + color.join("^"))
+       document.write("My favourite color is "+color[2])
+       color.pop();
+       document.write("Before poping the colors are "+color.join("*"));
+      </script>
+
+</body>
